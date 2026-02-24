@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fade Zone Barbers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      text-align: center;
+    }
+    .hero {
+      padding: 100px 20px;
+      background: #000;
+    }
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    .gold {
+      color: #c59d5f;
+    }
+    .section {
+      padding: 40px 20px;
+    }
+    .card {
+      background: #1a1a1a;
+      margin: 10px auto;
+      padding: 15px;
+      max-width: 300px;
+      border-radius: 8px;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      background: #c59d5f;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>Fade Zone Barbers</h1>
+  <p class="gold">Melbourne’s freshest cuts</p>
+  <a href="tel:0400000000" class="button">Call Now</a>
+</div>
+
+<div class="section">
+  <h2 class="gold">Services</h2>
+  <div class="card">Skin Fade — $35</div>
+  <div class="card">Haircut — $30</div>
+  <div class="card">Beard Trim — $20</div>
+  <div class="card">Kids Cut — $25</div>
+</div>
+
+<div class="section">
+  <h2 class="gold">Opening Hours</h2>
+  <p>Mon – Fri: 9am – 6pm</p>
+  <p>Saturday: 9am – 5pm</p>
+  <p>Sunday: Closed</p>
+</div>
+
+<div class="section">
+  <h2 class="gold">Location</h2>
+  <p>123 Example Street, Melbourne VIC</p>
+</div>
+
+</body>
+</html>
